@@ -17,3 +17,7 @@ Until the data are publicly released, please contact rly@princeton.edu for acces
 Run the script `runSpdfsAndDelayPeriodFRStats` from any directory. Figures will be generated in `{root_dir}/firing_rate_analysis/figures/`.
 
 This script also computes and prints out the reported statistics of attentional modulation of delay period spiking in each area. 
+
+## Contact
+
+Please contact rly@princeton.edu with any questions. 
