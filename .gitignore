@@ -1,9 +1,5 @@
 # processed data files
-spike_lfp_analysis/processed_data/
-spike_analysis/processed_data/
-lfp_analysis/processed_data/
-latency_analysis/randomizations/
-dist
+firing_rate_analysis/processed_data/
 
 # ghostscript version
 util/append_pdfs/.ignore/
