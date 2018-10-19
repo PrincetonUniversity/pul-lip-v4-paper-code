@@ -1,0 +1,53 @@
+# processed data files
+spike_lfp_analysis/processed_data/
+spike_analysis/processed_data/
+lfp_analysis/processed_data/
+latency_analysis/randomizations/
+dist
+
+# ghostscript version
+util/append_pdfs/.ignore/
+
+# fig/img files
+*.fig
+*.png
+*.pdf
+
+!bsmart/*
+bsmart/A
+bsmart/Ve
+bsmart/channel
+bsmart/dataset.bin
+bsmart/order
+bsmart/points
+bsmart/trail
+bsmart/window
+*.o
+*.exe
+
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+############
+
+# MATLAB
+*.asv
+
+# temp and backup files
+*.bak
+*.log
+*.tmp

@@ -1,0 +1,46 @@
+Session,Cell ID,InRF,ExRF,Quality,Cue Analysis,Array Analysis,Comments
+C110531,3a,P1,P5,4,y,y,Clear P1 response. Only 66 trials.
+C110531,3b,P1,P5,4,y,y,Clear P1 response. Only 66 trials.
+C110601,3a,P4,P3,2,y,y,"Exclude. Poor response to cue. Unclear RF choice. Only 61 trials. P4 has the peak response to the cue. P1 is similar and has a larger peak and average response to the array, but P1 has only 4 trials."
+C110617,3a,P6,P4,4,combine,combine,Very clear P6 response. 0D data shows clear P6 and P1 response.
+C110617,3b,P1,P5,2,combine,combine,"Not much firing. Unclear RF choice. Could be P1 or P2. P1 shows shorter latency to cue (indicative of better drive) and it has the best response to the single barrel/bowtie in the 0D trials. It it relatively common to say that a cell needs to fire on at least one-third of trials to be considered driven by the stimulus. Although low firing rate, both p1 and p2 satisfy this criterion threshold."
+C110617,3c,P3,P4,2,combine,supp,Early P1 response. 0D data has P3 and P4 peaks instead. Combine 0D and 5D data??
+C110617,3d,P1,P5,4,combine,combine,Very clear P1 response. 0D data shows clear P1 response with later peaks for P2 and P6 as well.
+C110727,3a,x,x,0,x,x,Exclude. Only 9 trials. 0D data not helpful.
+C110727,3b,P2,P5,2,0D only,0D only,"Use the 0D data for the latency analysis, not the 5D data. Clear response on 4/4 P2 trials in 0D block. Since response to single barrel/bowtie is at same latency as cue, one might even consider using all 8 evoked responses (4 to cue and 4 to array) to determine latency. There is basically no spiking in 5D trials."
+C110811,3a,P1,P5,1,y,y,"Poor response to cue. Unclear RF choice, could be P1 or P3."
+C110811,3b,P5,P1,3,y,y,P5 response in both 5D and 0D. 
+C110812,3a,x,x,0,x,x,Exclude. Only 21 trials. Poor response to cue. Unclear RF choice. 0D data not helpful. 
+C110812,3b,P1,P2,2,combine,combine,"There are only 21 5D and 44 0D trials. However, this cell may be useful for latency analysis. Cell responds to cue in 0D trials at approx same latetncy on 4 of 8 trials. Could even consider combining cue-evoked responses in 0D and 5D trials for 11 trials in total, for the latency analysis. It is not so clear that the cell is visually driven though. There are the same number of spikes in the 200ms before the cue as there are after the cue. That said, the cell does fire on more than half of trials in the green window for the cue and can be used for the cue latency analysis, but not for the array analysis."
+L101008,3a,P1,P5,3,y,y,Not much firing. P1 response begins too early but other peaks are high.
+L101018,3a,P2,P6,2,y,y,"Unclear RF choice. Only 71 trials. Cell responds on 8 of 13 trials (highest proportion cf. other positions) and gives highest response (although close to some other positions but they have less trials). Enough trials to use for latency analysis, spike density functions, etc. The P2 peak is barely above other peaks though."
+L101018,3b,P4,P2,2,y,y,P3 response driven by one bursty trial. Only 71 trials.
+L101019,3a,P1,P5,2,y,y,"Sparse firing, but there is clear array evoked activity."
+L101019,3b,P1,P2,4,y,y,Very clear P1 response.
+L101020,3a,P3,P2,4,y,y,Clear early and late peak for P3. Also a late peak for P5. Clear array evoked activity.
+L101020,3b,P3,P6,4,y,y,"Clear cue response at all locations, with strongest at P3 and P2. P3 has slightly larger sustained activity over cue period."
+L101022,3a,P4,P6,4,y,supp,Clear P4 response. 
+L101025,3a,P6,P3,3,y,supp,Clear very late P6 response. Seems to be an offset response for P6. Possible onset responses for P2 and P4 but they are weaker. Clear P6 barrel array response at around 275ms as well.
+L101025,3b,P2,P1,3,y,y,"Pretty clear response to cue, clear response to array."
+L101027,3a,P1,P2,3,y,y,"Pretty clear response to cue, clear response to array."
+L101027,3b,x,x,1,x,x,"Exclude. Sparse firing. Poor response to cue. Unclear RF choice. Cell responds on about one-third of P1 cue presentations, and considering a rough topography in LIP, a P1 RF makes sense as cell 3a also has p1 RF. However, there are the same number of spikes in the 200ms before the cue as there are after the cue. There is also complete lack of response or suppression in response to the array. If anything, this is a P3 visually suppressed cell based on the lack of spiking to visual stimuli and the spatially selective (and I think shape-selective) response 300ms after array onset. For the latency analysis, I hesitate to use a peak consisting of 2 spikes over 23 trials. I still vote to exclude."
+L101029,3a,P2,P3,2,y,y,Poor response to cue. Unclear RF choice.
+L101105,3a,P1,P4,4,y,y,Clear P1 response.
+L101105,3b,P1,P4,4,y,y,Clear P1 response.
+L101105,3c,P1,P4,4,y,y,Clear P1 response.
+L101208,3a,P2,P6,2,y,y,Poor response to cue. Unclear RF choice.
+L101208,3b,P1,P4,4,y,y,Clear P1 response but also late response at P3. 
+L101209,3a,P3,P6,2,y,y,Poor response to cue. Unclear RF choice.
+L101214,3a,P1,P6,2,y,y,Poor response to cue. Unclear RF choice.  Tough call but I think it's either P1 or P2. P1 has a single peak to the cue and a single peak to the array. P2 has an approx onset and offset response but weak response to the array.
+L101215,3a,P1,P6,4,y,y,"Clear P1 response to the cue, weak to the array. Clear suppression to the array at 150ms after array onset."
+L101216,3a,P2,P6,2,y,y,"Poor response to cue. Unclear RF choice. This depends on criteria - e.g., P1 has peak response, higher delay period activity and better array-evoked response. P3 has the greatest mean spike rate in the green time window. P1 does have the peak response but the peak response for P2 is almost as large and around 50ms earlier in response to both the cue and the array. P2 also has a broader peak response, i.e. larger mean spike rate than P1. In this case, where the peaks are close, I used peak latency and average response size as the tie-breakers. I think P2 is the best here."
+L101221,3a,P3,P5,4,y,y,Clear P3 response.
+L101222,3a,P5,P6,4,y,y,"Clear P5 response. P5 has the peak response, but P4 has a (seemingly slightly) larger mean spike rate in the 20-200ms after cue onset and a larger peak in the array evoked response (but not larger average sustained response to the array). Could go for either, but the criteria calls to use the largest peak if it is not unclear."
+L101222,3b,P4,P6,4,y,y,Clear P4 response.
+L101222,3c,P4,P6,4,y,y,Clear P4 response.
+L110519,3a,P3,P6,4,y,y,Clear P3 response.
+L110519,3b,P2,P6,4,y,y,Clear P2 response.
+L110523,3a,P3,P6,4,combine,combine,Clear P3 response. 0D data also has clear P3 response.
+L110524,3a,P3,P5,4,combine,combine,Clear P3 response. 0D data also has clear P3 response.
+L110524,3b,P3,P1,4,combine,combine,Clear P3 response. 0D data also has clear P3 response.
+L110531,3a,P4,P3,2,combine,combine,P4 response to the cue is late. The peak is at P4 for both cue and array responses. Unclear RF choice. 0D data does not show a cue location preference.

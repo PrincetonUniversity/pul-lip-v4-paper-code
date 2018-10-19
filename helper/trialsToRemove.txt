@@ -1,0 +1,140 @@
+The following information is used in cleanEventTimes.m
+
+Bad trials to remove from Pulvinar spike data (N=65):
+
+C110623_sig1a
+silent after trial 41
+
+L101013_sig1a
+some trials very noisy
+trials end at around 270+
+
+L101105_sig1a
+some trials very noisy
+
+L110411_sig1a
+spiking drops off dramatically after trial 37 or so
+no spiking after trial 83 or so
+
+
+Sessions with too few (<80) trials and no clear cue location preference:
+C110623_sig1a - 41 trials (after modification)
+C110720_sig1b - 46 trials
+C110721_sig1a - 13 trials
+C110809_sig1a - 67 trials and sparse
+C110809_sig1b - 67 trials and very sparse
+C110812_sig1a,b - 21 trials
+L101123_sig1a - 75 trials
+L101124_sig1a,b,c - 77 trials
+L110411_sig1a - 37 trials (after modification)
+L110414_sig1a,b - 36 trials
+L110711_sig1a - 75 trials
+N=15
+
+
+Iffy:
+C110623_sig1b - denser spiking in first 41 trials, which is when sig1a fired for
+L101029_sig1a - most spikes in middle of session
+L110412_sig1a - loss of spiking around trial 30-40
+L110412_sig1b - gain of spiking around trial 30-40 and 65-100
+L110523_sig1a - sparse firing
+L110531_sig1a - increased spiking around trial 116+
+L110531_sig1b - sparse firing
+L110811_sig1c - firing pattern changes dramatically after trial 60 or so, but it is kind of consistent 
+L110812_sig1a - sparse firing
+
+Need a reasonable method for classifying cells as having sparse firing.
+
+
+0-distractor sessions info:
+C110713_sig1a - P3 preference, but 5D has clear P1 preference
+C110720_sig1b - P1 preference, but 5D has only 46 trials
+C110722_sig1a - only 17 trials, unclear
+C110728_sig1a - almost no firing, unclear
+C110728_sig1b - maybe P3, unclear because of high baseline
+C110804_sig1a - unclear
+C110809_sig1a,b - almost no firing, but 5D has only 67 trials and sparse
+C110811_sig1a - slight P2 preference
+C110811_sig1b - slight P3 preference
+C110812_sig1a - unclear preference
+C110812_sig1b - unclear preference
+L110523_sig1a - unclear preference
+L110523_sig1b - P2 preference
+L110524_sig1a - unclear preference
+L110531_sig1a - P1 preference
+L110531_sig1b - P6 preference
+L110711_sig1a - unclear preference
+L110810_sig1a - P3 preference
+L110811_sig1a - slight P4 preference, biased by burstiness
+L110811_sig1b - unclear preference
+L110811_sig1c - almost no firing
+L110812_sig1a - almost no firing
+L110812_sig1b - P2 preference, but 5D has pretty clear P3/P6 preference
+
+
+--------------------------------------------------------------------------------
+Bad trials to remove from V4 spike data (N=41):
+none
+
+
+Sessions with too few (<80) trials and no clear cue location preference:
+C110727_sig4a - 9 trials
+L101124_sig4a - 77 trials
+
+
+Iffy:
+L101007_sig4b - very sparse firing
+L101019_sig4a - very sparse firing
+L101019_sig4b - sparse firing
+L101020_sig4a - sparse firing
+L101208_sig4a - very sparse firing
+L101208_sig4c - very sparse firing
+L101215_sig4b - spiking drops off dramatically after trial 40 or so, and the remaining firing seems to show preference for cue location. maybe remove those early trials with lots (seemingly continuous) firing.
+N=7
+
+0-distractor sessions info:
+C110727_sig4a - only 11 trials, unclear
+C110728_sig4a - slight P1 preference
+C110811_sig4a - unclear preference
+C110811_sig4b - unclear preference
+L110524_sig4a - definite P3 preference
+
+
+--------------------------------------------------------------------------------
+Bad trials to remove from LIP spike data (N=43):
+none
+
+
+Sessions with too few (<80) trials and no clear cue location preference:
+C110531_sig3a - 66 trials, but probable cue preference
+C110531_sig3b - 66 trials, but probable cue preference
+C110601_sig3a - 61 trials
+C110727_sig3a - 9 trials
+C110727_sig3b - 9 trials
+C110812_sig3a - 21 trials
+C110812_sig3b - 21 trials
+L101018_sig3a - 71 trials
+L101018_sig3b - 71 trials
+N=9
+
+Iffy:
+C110617_sig3b - sparse firing
+L101008_sig3b - sparse firing
+L101019_sig3a - sparse firing
+L101027_sig3b - sparse firing
+L101105_sig3c - kind of sparse firing but clear cue preference
+
+
+0-distractor sessions info:
+C110617_sig3a - clear P1/P6 preference (5D shows P6 preference)
+C110617_sig3b - sparse, unclear preference
+C110617_sig3c - unclear preference
+C110617_sig3d - clear P1 preference
+C110727_sig3a - only 11 trials, unclear
+C110727_sig3b - only 11 trials, unclear
+C110812_sig3a - unclear preference
+C110812_sig3b - unclear preference
+L110523_sig3a - definite P3 preference
+L110524_sig3a - definite P3 preference
+L110524_sig3b - definite P3 preference
+L110531_sig3a - unclear preference

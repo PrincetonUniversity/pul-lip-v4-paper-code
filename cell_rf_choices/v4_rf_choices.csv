@@ -1,0 +1,43 @@
+Session,Cell ID,InRF,ExRF,Quality,Cue Analysis,Array Analysis,Comments
+C110726,4a,x,x,0,x,x,Exclude. Only 5 trials.
+C110727,4a,x,x,0,x,x,Exclude. Only 9 trials in 5D and 11 trials in 0D. Spike rate is too low to make meaningful inference.
+C110728,4a,P4,P3,2,combine,combine,"Responses to cue in 5D condition are within 1 SD of baseline, but there is a clear response to the array at around 70ms across cue locations. There are peaks for P2, P4, and P6 that are consistent across cue and array. 0D data suggests P1 (large late response), P2, or P4 but it is difficult to judge. P4 has the largest average response in the 5D cue period, due to a second peak -- perhaps an offset response."
+C110811,4a,P3,P5,2,combine,combine,"5D cue response suggests P2 or P3. P3 has an earlier cue response, the peak cue response, and a clear response in the 5D array period. P2 has the largest average response in the 5D cue period. 0D data suggests P2, P3, or P6."
+C110811,4b,P5,P3,2,combine,combine,"RF choice unclear. Could be P5 or P1. P5 has an earlier peak, a second peak that is similarly shaped to the first peak and is timed appropriately for an offset response, and the largest average response in the 5D cue period. P1 has the largest peak in the 5D cue period. 0D data suggests P2 or P3 but baseline variability is high."
+L101007,4a,P2,P3,2,y,y,"RF choice unclear. Could be P1, P2, or P6. There is no clear array response. "
+L101007,4b,x,x,0,x,x,Exclude. Almost no firing except around response time. 
+L101008,4b,x,x,0,x,x,"Exclude. Lots of firing and trials, but no response to cue over 1 SD of baseline. There is a slight response to the array across cue locations compared to delay period at about 50ms, but it's not over baseline variability."
+L101011,4a,P4,P2,2,y,y,"5D cue response suggests P1 or P4. 5D array response shows clear peaks for P1, P5, and P6, and a late peak for P3. "
+L101012,4a,P5,P1,2,y,y,"Most responses to cue in 5D condition are within 1 Sd of baseline, except for P3 has a late peak (140ms) suggesting an offset response, and P5 has a very late peak (200ms). P5 has a clear array response. "
+L101012,4b,x,x,1,x,x,"Exclude. Sparse firing. Poor response to cue. RF choice unclear. Best choices are P1 (fires on 7/26 < 1/3 of trials), P3 (fires on 5/22 < 1/3 of trials), and P5 (fires on 9/27 = 1/3 of trials) with a late peak at 200ms."
+L101013,4a,P4,P6,3,y,y,"Responses to cue in 5D condition are at most 0.6 SD above baseline, with no clear best cue location -- P1 has the peak and P2 has the highest average. There is a clear array response at every cue location with a 60ms latency and strongest activity for P4. Interestingly, there is slight post-firing suppression between 100 and 200ms after array onset. There is also a clear P1 peak 200ms after array onset."
+L101014,4a,x,x,1,x,x,"Exclude. Responses to cue in 5D condition are within 1 SD of baseline, with no clear best cue location -- P5 has a late peak (offset response?) and the highest average firing. There is also a late P5 and P1 response to the array at around 210ms, which could be a release from suppression or premotor response."
+L101019,4a,x,x,0,x,x,Exclude. Almost no firing.
+L101019,4b,P2,P1,4,y,y,"Sparse but very clear P2 response. Firing at the same timing for about 15/150 trials at P2. Also sparse, but clearly time-locked array response."
+L101019,4c,P2,P1,4,y,y,Very clear P2 response. Could even be same cell as 4b.
+L101020,4a,x,x,0,x,x,Exclude. Sparse firing - peak is 2 spikes on 1 out of 22 trials for P5. Poor response to cue. RF choice unclear.
+L101021,4a,P3,P6,4,y,y,Large late response at P3 but early response at P1. Latency of cue response for P3 is consistent with the array response.
+L101021,4b,P3,P6,4,y,supp,Small early response and large late response at P3. Early suppression at 50-100ms after array onset.
+L101022,4a,P2,P5,4,y,y,Very clear P2 response.
+L101029,4a,x,x,1,x,x,"Exclude. Lots of firing and trials, but responses to cue are barely over baseline variability, with no clear best cue location. There is a P1 array response though. "
+L101103,4a,P4,P1,4,y,y,Very clear P4 response.
+L101103,4b,P4,P1,4,y,y,Clear P4 response. P3 response is present but less.
+L101103,4c,P4,P1,4,y,y,Very clear P4 response.
+L101105,4a,P4,P1,4,y,y,Very clear P4 response. Suppression in P4 and P3 array response.
+L101105,4b,P4,P1,4,y,supp,Very clear P4 response. Suppression in P4 and P3 array response.
+L101105,4c,P4,P2,4,y,y,Very clear P4 response. Early array response for all cue locations but later suppression in P4 and P3.
+L101119,4a,P3,P6,4,y,y,Very clear P3 response. Weaker response to array for P3 than other cue locations.
+L101124,4a,P3,P5,2,y,y,"P3 firing begins unusually early (20 ms; 4 spikes, 2/10 trials) but is larger than the rest. The P3 peak at ~60ms (4 spikes, 4/10 trials) is aligned to the array response peak across all cue locations at ~60ms. There is also a late P2 peak due to 3 spikes in 3/9 trials."
+L101208,4a,x,x,0,x,x,Exclude. Almost no firing.
+L101208,4b,P3,P1,4,y,y,Very clear P3 and weaker P4 response to cue. Strongest array response for P2.
+L101208,4c,x,x,0,y,y,"Exclude. Almost no cue/delay firing. However, there is clear array evoked firing at 140ms after array onset - ashape responsive cell? Can use for array latency."
+L101209,4a,P3,P6,4,y,y,"Very clear P3 response, though it is not much larger than 1 sd over baseline."
+L101209,4b,P3,P1,4,y,y,Very clear P3 response.
+L101215,4a,P3,P6,4,y,y,Very clear P3 response.
+L101215,4b,P3,P6,4,y,y,Very clear P3 response.
+L101216,4a,P3,P6,4,y,y,Very clear P3 response.
+L101216,4b,P3,P6,4,y,y,Very clear P3 response.
+L101221,4a,P2,P5,4,y,y,Very clear P2 response. Probably poor response to bowties at P2.
+L101222,4a,P3,P2,4,y,y,Very clear P3 response. Clear suppression to the array at P3 but still a slight response for latency analysis
+L110519,4a,P2,P5,4,y,y,Very clear P2 response.
+L110524,4a,P3,P6,4,combine,combine,Very clear P3 response. Very clear P3 response in 0D data as well.
