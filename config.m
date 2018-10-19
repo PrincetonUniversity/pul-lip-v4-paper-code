@@ -1,5 +1,6 @@
 % run this function from the project root directory to set up the PATH and
-% ENV variable for later use in navigating directory structures
+% ENV variable for later use in navigating directory structures and create
+% processed data directories
 function config()
 
 %% add appropriate project dirs to the path
@@ -28,3 +29,10 @@ ENV.dataDir = [pwd '/../klab_data/']; % CHANGE ME AS NEEDED
 % ENV.spikeLfpProcDataDir = [ENV.spikeLfpAnalysisDir 'processed_data\'];
 
 fprintf('Global ENV variable is now set.\n');
+
+%% make processed data directories
+mkdir('firing_rate_analysis/processed_data');
+mkdir('firing_rate_analysis/figures');
+
+fprintf('Processed data directories are now made.\n');
+

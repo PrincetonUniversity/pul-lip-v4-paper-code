@@ -6,7 +6,7 @@ The analysis pipeline makes use of the [Chronux](http://chronux.org/) toolbox.
 
 ## Setup
 
-Until the data are released publicly, please contact rly@princeton.edu for access to the data. In `config.m`, set the variable `ENV.dataDir` to the path to the data. Then navigate to the repo root directory in Matlab, and run `config` to set up the project path and environment variables.
+Until the data are released publicly, please contact rly@princeton.edu for access to the data. In `config.m`, set the variable `ENV.dataDir` to the path to the data. Then navigate to the repo root directory in Matlab, and run `config` to set up the workspace.
 
 ## Figures
 
