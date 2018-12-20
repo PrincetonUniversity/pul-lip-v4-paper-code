@@ -1,4 +1,4 @@
-function plotMeanSpdf(areaName, cueT, meanNormCueInRFRate, seNormCueInRFRate, ...
+function plotMeanCueArrSpdf(areaName, cueT, meanNormCueInRFRate, seNormCueInRFRate, ...
         meanNormCueExRFRate, seNormCueExRFRate, ...
         arrT, meanNormArrInRFRate, seNormArrInRFRate, ...
         meanNormArrExRFRate, seNormArrExRFRate)
@@ -7,11 +7,21 @@ function plotMeanSpdf(areaName, cueT, meanNormCueInRFRate, seNormCueInRFRate, ..
 % legend in LIP array onset plot
 % xlabel in V4 plot
 figure_tr_inch(7, 3);
+clf;
 set(gcf, 'Color', 'white');
 
+cueW = 0.44 * 0.4/0.5; % scaled for axis length
+arrW = 0.44;
+spdfH = 0.69;
+
+btm = 0.26;
+cueLeft = 0.13;
+arrLeft = cueLeft + cueW + 0.04;
+
 %% SPDF aligned to cue onset
-subaxis(1, 2, 1, 'ML', 0.15, 'MB', 0.26, 'MT', 0.03, 'SH', 0.04, 'MR', 0.07);
+axes('Position', [cueLeft btm cueW spdfH]);
 hold on;
+
 plot([0 0], [-1 1], 'k');
 plot([-1 1], [0 0], 'k');
 jbfill(cueT, meanNormCueInRFRate + seNormCueInRFRate, ...
@@ -29,20 +39,21 @@ plot(cueT, meanNormCueExRFRate, 'b', 'LineWidth', 3);
 if strcmp(areaName, 'V4')
     xlabel('Time from Cue Onset (s)   ');
 end
-ylabel('Normalized Rate', 'Position', [-1.5 0], 'Units', 'normalized');
+ylabel('Normalized Rate', 'Position', [-1.45 0], 'Units', 'normalized');
 set(gca, 'FontSize', 18);
-xlim([-0.2 0.3]);
+xlim([-0.1 0.3]);
 if strcmp(areaName, 'PUL')
     ylim([-0.08 0.22]);
 elseif strcmp(areaName, 'V4')
-    ylim([-0.07 0.46]);
+    ylim([-0.07 0.47]);
 elseif strcmp(areaName, 'LIP')
     ylim([-0.12 0.36]);
 end
+set(gca, 'XTick', -0.3:0.1:0.2);
 box off;
 
 %% SPDF aligned to array onset
-subaxis(1, 2, 2);
+axes('Position', [arrLeft btm arrW spdfH]);
 hold on;
 
 if strcmp(areaName, 'LIP')
@@ -69,16 +80,17 @@ if strcmp(areaName, 'LIP')
 end
 
 if strcmp(areaName, 'V4')
-    xlabel('     Time from Array Onset (s)');
+    xlabel(' Time from Array Onset (s)');
 end
 set(gca, 'FontSize', 18);
 xlim([-0.3 0.2]);
 if strcmp(areaName, 'PUL')
     ylim([-0.08 0.22]);
 elseif strcmp(areaName, 'V4')
-    ylim([-0.07 0.46]);
+    ylim([-0.07 0.47]);
 elseif strcmp(areaName, 'LIP')
     ylim([-0.12 0.36]);
 end
+set(gca, 'XTick', -0.3:0.1:0.2);
 set(gca, 'YTickLabel', []);
 box off;
