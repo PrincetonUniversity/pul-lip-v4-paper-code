@@ -4,8 +4,8 @@ v = 116;
 
 % set up input/output directories
 global ENV;
-procDataDir = [ENV.homeDir '/firing_rate_analysis/processed_data'];
-outputDir = [ENV.homeDir '/firing_rate_analysis/figures'];
+procDataDir = ENV.frProcDataDir;
+outputDir = ENV.frFigDir;
 dataDir = ENV.dataDir;
 
 fprintf('-------------------------------------------------------------------\n')

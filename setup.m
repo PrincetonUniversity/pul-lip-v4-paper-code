@@ -31,13 +31,13 @@ ENV.dataDir = [pwd '/../klab_data/']; % CHANGE ME AS NEEDED
 fprintf('Global ENV variable is now set.\n');
 
 %% make processed data directories
-procDataDir = 'firing_rate_analysis/processed_data';
-if ~exist(procDataDir, 'dir')
-    mkdir(procDataDir);
+ENV.frProcDataDir = [ENV.homeDir '/firing_rate_analysis/processed_data'];
+if ~exist(ENV.frProcDataDir, 'dir')
+    mkdir(ENV.frProcDataDir);
 end
-figDir = 'firing_rate_analysis/figures';
-if ~exist(figDir, 'dir')
-    mkdir(figDir);
+ENV.frFigDir = [ENV.homeDir '/firing_rate_analysis/figures'];
+if ~exist(ENV.frFigDir, 'dir')
+    mkdir(ENV.frFigDir);
 end
 
 fprintf('Processed data directories are now made.\n');
