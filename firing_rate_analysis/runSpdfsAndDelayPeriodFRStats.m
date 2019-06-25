@@ -22,12 +22,12 @@ for k = 1:numel(areaNames)
     
     %% create the relevant event and spike time variables, save workspace to file
     startWorkspaceFilePath = sprintf('%s/%s_start_workspace_v%d.mat', procDataDir, areaName, v);
-    preprocessSpikingData(dataDir, areaName, procDataDir, startWorkspaceFilePath, v);
+%     preprocessSpikingData(dataDir, areaName, procDataDir, startWorkspaceFilePath, v);
     S = load(startWorkspaceFilePath); 
 
     %% compute spike stats incl. firing rate in various time windows
     detailedWorkspaceFilePath = sprintf('%s/%s_detailed_workspace_v%d.mat', procDataDir, areaName, v);
-    createSpikeStatsAll(S, 1, detailedWorkspaceFilePath);
+%     createSpikeStatsAll(S, 1, detailedWorkspaceFilePath);
     D = load(detailedWorkspaceFilePath, 'spikeStatsAll');
 
     %% get 5D sessions only

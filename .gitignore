@@ -8,6 +8,7 @@ util/append_pdfs/.ignore/
 *.fig
 *.png
 *.pdf
+*.eps
 
 !bsmart/*
 bsmart/A
