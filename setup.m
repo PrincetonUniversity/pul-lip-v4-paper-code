@@ -39,6 +39,13 @@ ENV.frFigDir = [ENV.homeDir '/firing_rate_analysis/figures'];
 if ~exist(ENV.frFigDir, 'dir')
     mkdir(ENV.frFigDir);
 end
-
+ENV.lfpPowProcDataDir = [ENV.homeDir '/lfp_power_analysis/processed_data'];
+if ~exist(ENV.lfpPowProcDataDir, 'dir')
+    mkdir(ENV.lfpPowProcDataDir);
+end
+ENV.lfpPowFigDir = [ENV.homeDir '/lfp_power_analysis/figures'];
+if ~exist(ENV.lfpPowFigDir, 'dir')
+    mkdir(ENV.lfpPowFigDir);
+end
 fprintf('Processed data directories are now made.\n');
 
