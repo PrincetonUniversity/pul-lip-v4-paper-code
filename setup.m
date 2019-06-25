@@ -1,7 +1,7 @@
 % run this function from the project root directory to set up the PATH and
 % ENV variable for later use in navigating directory structures and create
 % processed data directories
-function config()
+function setup()
 
 %% add appropriate project dirs to the path
 addpath(genpath(fullfile(pwd, 'chronux/spectral_analysis')));
