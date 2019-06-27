@@ -11,6 +11,8 @@ addpath(genpath(fullfile(pwd, 'util')));
 addpath(fullfile(pwd, 'firing_rate_analysis'));
 addpath(fullfile(pwd, 'firing_rate_analysis/compute_spike_stats'));
 addpath(fullfile(pwd, 'cell_rf_choices'));
+addpath(fullfile(pwd, 'lfp_power_analysis'));
+addpath(fullfile(pwd, 'lfp_shared_rf_choices'));
 
 fprintf('Path variable is now set.\n');
 

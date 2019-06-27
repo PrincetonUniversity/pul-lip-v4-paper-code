@@ -1,5 +1,6 @@
 # processed data files
 firing_rate_analysis/processed_data/
+lfp_power_analysis/processed_data/
 
 # ghostscript version
 util/append_pdfs/.ignore/
